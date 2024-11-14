@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="envelope" onclick="showCard()">
+        <h1>¡Haz click aquí para empezar!</h1>
+    </div>
+    <div class="card">
+        <div class="messages">
+            <div class="message"><img src="imagenes/1.jpeg" alt="Mensaje 1"><p>Por qué hiciste eso.</p></div>
+            <div class="message"><img src="imagenes/2.jpeg" alt="Mensaje 2"><p>Te odio :c.</p></div>
+            <div class="message"><img src="imagenes/3.jpeg" alt="Mensaje 3"><p>Eres como los demás.</p></div>
+            <div class="message"><img src="imagenes/4.jpeg" alt="Mensaje 4"><p>Ya no se si estar contigo.</p></div>
+            <div class="message"><img src="imagenes/5.jpeg" alt="Mensaje 5"><p>Yo te queria demasiado.</p></div>
+            <div class="message"><img src="imagenes/6.jpeg" alt="Mensaje 6"><p>Perro desgraciado.</p></div>
+        </div>
+    </div>
+
+    <div class="continue-container">
+        <button class="continue-btn" onclick="showNextMessage()">Continua...tengo un mensaje para ti mi amor.</button>
+        <button class="back-btn" onclick="goBack()">Regresar a nuestras fotos.</button>
+    </div>
+
+    <div id="nextMessage">
+        No merecia eso, te di mi confianza y asi es como me demuestras el "amor" que tienes por mi, de verdad que me siento muy mal y no se si la relación que teneiamos vuelva a ser la misma, por ahora no quiero saber nada de ti, Adios...
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
